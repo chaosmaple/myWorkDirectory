@@ -56,3 +56,16 @@ my_work_directory
 * js压缩 —— uglify
 
 * 其他 —— nib
+
+##some Tips
+
+> 大体页面参照微店的手机页面构建（主要支持微信页面）
+
+> footer使用[stick footer](http://segmentfault.com/q/1010000002521442)，参照segmentfault的solar大大的答案，
+保证在内容不足的时候也能够保持页脚固定在底部。
+
+> 页面最大宽度为10rem(640px)，字体大小可以根据flexible提供的dpr值进行调整
+
+> 底部的fixed tab使用一个不显示的div包裹，用position: relative;向下定位，在手机输入法打开时不会显示
+
+> 语义化标签的使用建议，参照[知乎：HTML5 里 section article 什么区别？header footer nav 该怎么理解？](http://www.zhihu.com/question/20308005)
