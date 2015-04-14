@@ -54,3 +54,5 @@ my_work_directory
 * CSS预编译 —— stylus
 
 * js压缩 —— uglify
+
+* 其他 —— nib
