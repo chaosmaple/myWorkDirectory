@@ -6,8 +6,8 @@ var gulp = require('gulp'),
 
 var paths = {
   build: {
-    css: './build/stylesheets/*.css',
-    js: './build/scripts/*.js',
+    css: './build/stylesheets/',
+    js: './build/scripts/',
     img: './build/images/'
   },
   dev: {
